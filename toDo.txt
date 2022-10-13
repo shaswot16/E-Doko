@@ -1,0 +1,13 @@
+1. Error Handle for async funtion
+2. Post request check for loginUser using postman  (DONE)
+3. Checking jwtToken.js (DONE)
+4. Authentication(jwt token expire problem)
+5. authenticate Roles 
+6. logout
+7. send email through resetPassword
+8. reset password 
+9. Get user details
+10. update password
+
+
+

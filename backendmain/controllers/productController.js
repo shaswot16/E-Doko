@@ -16,8 +16,15 @@ app.use(express.json());
 
 require('../config/database')
 
+
+exports.homePage =(req,res)=>{
+    res.send('Hello World From the server');
+}
+
 //Create Product -- Admin
 exports.createProducts = async (req, res) => {
+
+    req.body.user = req.user.id;
 
     const user = new Product(req.body);
     console.log(user);
